@@ -20,16 +20,21 @@ body {
 	flex-wrap: wrap;
 	margin: 0 -15px;
 }
-.col-3, .col-6 {
+.latest-news-section, .col-6, .pictorial-news-section {
 	flex: 0 0 auto;
 	max-width: 100%;
 	padding: 0 15px;
 }
-.col-3 {
+.latest-news-section, .pictorial-news-section {
 	width: 25%;
+	background-color: #fff;
 }
 .col-6 {
 	width: 50%;
+}
+.pictorial-news-section {
+	text-align: center;
+	border-radius: 5px;
 }
 img {
 	width: 100%;
